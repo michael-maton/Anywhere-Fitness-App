@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import Map from './map/map.js'
+// import Map from './map/map.js'
 import Class from '../components/CreateClass/Class'
 import { axiosWithAuth } from "../utils/axiosWithAuth";
 
@@ -35,7 +35,7 @@ export default function Browse(props){
                     </div>
                 </div>
                 <div className='maps-container' id='map'>
-                   <Map  />
+                   {/* <Map  /> */}
                 </div>
             </div>
             </section>
