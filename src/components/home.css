@@ -1,0 +1,257 @@
+
+
+
+
+.home-page {
+    background: rgb(255, 255, 255);
+}
+.fitness-img-container{
+    background-image: url('../images/fitnessfashion1.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 90%;
+    height: 110vh;
+}
+
+.fitness-img-container h4 {
+    padding: 1px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+.fitness-img-container h1 {
+    display: flex;
+    letter-spacing: 3px;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.fitness-img-container p {
+    display: flex;
+    flex-wrap: wrap;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 3;
+    margin-top: 5%;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.text-container-browser-classes {
+    width: 50em;
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+#browse-btn {
+    padding: 3% 10%;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    background: orange;
+    margin-top: 5%;
+    letter-spacing: 2px;
+    border: none;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+
+#browse-btn:hover{
+    transform: translate(0, -5px);
+    box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+    background: darkorange;
+}
+
+/* -------------About Section ------------- */
+
+.about-section {
+    background: white;
+    margin: 100px;
+
+}
+
+.about-section-title {
+    font-size: 1.7rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    padding-top: 1%;
+    opacity: .9;
+    line-height: 1.6;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about-why-af {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    justify-content: center;
+}
+
+.about{
+    align-self: center;
+    text-align: left;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    max-width: 20vw;
+    margin-right: 10%;
+}
+
+.about h2 {
+    color: #9b9b9b;
+    font-size: 12px;
+    opacity: .6;
+}
+
+.about h1 {
+    font-size: 24px;
+}
+
+.about ul{
+    padding-inline-start: 0px;
+    
+}
+
+.about ul li h3 {
+    font-size: 16px;
+}
+
+.about ul li p {
+    color: #696969;
+}
+
+.about-section ul {
+    list-style-type: none;
+}
+
+
+.img-container1 {
+    text-align: right;
+    align-self: center;
+}
+
+.about img {
+    width: 500px;
+}
+/* ------------- Footer ------------- */
+
+footer{
+    margin-bottom: 90px;
+    background: #0d0d0d;
+    color: white;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    padding: 3%;
+    text-align: left;
+}
+
+footer div h3 {
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+
+footer div ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    text-align: initial;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 2;
+    font-size: 12px;
+}
+
+footer div ul a {
+    text-decoration: none;
+    color: hsla(0,0%,100%,.56);
+    transition: 0.2s all ease-in-out;
+}
+
+footer div ul a:hover {
+    color: white;
+}
+
+.col4 ul {
+    display: flex;
+}
+
+.col4 ul li {
+    padding-right: 3%;
+}
+
+.col4 ul li img {
+    width: 30px;
+    transition: 0.2s all ease-in-out;
+}
+
+.col4 ul li img:hover {
+    background-color: white;
+}
+/* -------------Why Section ------------- */
+
+
+.find-why-af {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    justify-content: center;
+}
+
+.why{
+    align-self: center;
+    text-align: left;
+    margin-left: 12%;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    max-width: 20vw;
+}
+
+
+.why ul{
+    padding-inline-start: 0px;
+    margin-right: 10%;
+}
+
+
+
+.img-container2 {
+    align-self: center;
+    text-align: left;   
+}
+
+.img-container2 img {
+    margin-left: -25%;
+}
+
+.why h2 {
+    color: #9b9b9b;
+    font-size: 12px;
+    opacity: .6;
+}
+
+.why h1 {
+    font-size: 24px;
+}
+
+.why ul li h3 {
+    font-size: 16px;
+}
+
+.why ul li p {
+    color: #696969;
+}
+
+.why img {
+    width: 500px;
+}

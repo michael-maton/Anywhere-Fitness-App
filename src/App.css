@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
+  min-height: 100vh;
+
+}
+
+
+/* ---------------------HEADER------------------------- */
+
+.app-header {
+  display: flex;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.logo-container {
+  display: flex;
+  padding-left: 3%;
+}
+
+.logo-container h3 {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  font-size: 2.5rem;
+}
+
+.word1{
+  color: #C4C4C4;
+}
+.word2{
+  color: #FF0000;
+}
+.word3{
+  color: #ffffff;
+}
+
+.logo-container span {
+  margin-right: 5%;
+}
+
+nav {
+  display: flex;
+    align-items: center;
+    width: 100vw;
+    justify-content: flex-end;
+    padding-right: 10%;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav a {
+  margin-left: 5%;
+  text-decoration: auto;
+  color: #ffffff;
+  transition: all 0.25s ease-in-out;
+  padding-bottom: 3px;
+  width: 6vw;
+}
+
+nav a:after {
+  display:block;
+  content: '';
+  border-bottom: solid 2px orange;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+nav a:hover:after { 
+  transform: scaleX(1); 
+}
+
+.orange-bar {
+  background-color: orange;
+  padding: 1px;
+  color: #333333;
+  max-width: 100%;
+
+}
+
+.orange-bar h4 {
+  padding: 1px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+/* --------------------FOOTER-------------------- */
+
+.static-footer {
+  position: fixed;
+  bottom:0;
+  left:0;
+  width:100vw;
+  height: 90px;
+  background: linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
+  display: flex;
+  align-items: center;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.for-user-type-client {
+  padding: 20px 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-right: 30px;
+  margin-left: 30px;
+  transition: all 0.2s ease-in-out;
+  background: orange;
+  border: solid 1px orange;
+  color: #ffffff;
+  cursor: pointer;
+}
+.for-user-type-client:hover {
+  transform: scale(1.05);
+}
+
+.for-user-type-instructor {
+  padding: 20px 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-right: 30px;
+  margin-left: 30px;
+  transition: all 0.2s ease-in-out;
+  background: #000000;
+  border: solid 1px #000000;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.for-user-type-instructor:hover {
+  transform: scale(1.05);
+}
+
+/* -------------Sign-In Component----------------- */
+
+.sign-in-container{
+  height: 100vh;
+  background-image: url('../src/images/fitnespic2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 90%;
+
+}
