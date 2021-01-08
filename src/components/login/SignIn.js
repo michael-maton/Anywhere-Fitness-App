@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 import * as yup from "yup";
-import axios from "axios";
 import schema from "../../schema/schema";
 import { connect } from "react-redux";
 import { setUser } from "../../actions/index";

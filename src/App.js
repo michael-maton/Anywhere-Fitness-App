@@ -14,9 +14,8 @@ import CreateClass from "./components/CreateClass/CreateClass";
 import PrivateRoute from "./utils/PrivateRoute";
 import InstructorOnly from "./utils/InstructorOnly";
 import { connect } from "react-redux";
-import { setUser, setUserFromStorage } from "./actions/index";
 
-function App({ setUser, user }) {
+function App({ user }) {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   useEffect(() => {

@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 import * as yup from "yup";
-import axios from "axios";
 import schema from "../../schema/schema";
 import { axiosWithAuth } from "../../utils/axiosWithAuth";
 
@@ -87,9 +86,6 @@ export default function SignUp(props) {
   const onSubmit = (evt) => {
     evt.preventDefault();
     submitForm();
-    {
-      console.log(formValues);
-    }
   };
   const update = (evt) => {
     const { type, value } = evt.target;

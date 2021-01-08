@@ -1,5 +1,5 @@
-import axios from 'axios';
-import { axiosWithAuth } from './../utils/axiosWithAuth';
+// import axios from 'axios';
+// import { axiosWithAuth } from './../utils/axiosWithAuth';
 
 export const SET_USER = 'SET_USER';
 // export const SET_USER_STORAGE = 'SET_USER_STORAGE';

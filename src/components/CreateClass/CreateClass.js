@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Classform from "./Classform";
-import Class from "./Class";
 import { axiosWithAuth } from "../../utils/axiosWithAuth";
 
 

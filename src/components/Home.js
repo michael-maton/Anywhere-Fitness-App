@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import fb from '../images/icons8-facebook-circled-48.png'
-import ig from '../images/icons8-instagram-48.png'
-import youtube from '../images/icons8-play-button-48.png'
-import linkedin from '../images/icons8-linkedin-48.png'
+// import fb from '../images/icons8-facebook-circled-48.png'
+// import ig from '../images/icons8-instagram-48.png'
+// import youtube from '../images/icons8-play-button-48.png'
+// import linkedin from '../images/icons8-linkedin-48.png'
 import { useHistory } from "react-router-dom";
 
 
