@@ -4,7 +4,6 @@ import * as yup from "yup";
 import axios from "axios";
 import schema from "../../schema/schema";
 import { axiosWithAuth } from "../../utils/axiosWithAuth";
-import "./register.css";
 
 const initialFormValues = {
   email: "",

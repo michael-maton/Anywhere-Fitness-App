@@ -7,7 +7,6 @@ import { connect } from "react-redux";
 import { setUser } from "../../actions/index";
 import { axiosWithAuth } from "../../utils/axiosWithAuth";
 
-import "./signin.css";
 
 const initialFormValues = {
   email: "",

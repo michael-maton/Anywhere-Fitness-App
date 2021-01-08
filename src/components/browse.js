@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react'
-import './browse.css'
 import Map from './map/map.js'
 import Class from '../components/CreateClass/Class'
 import { axiosWithAuth } from "../utils/axiosWithAuth";
