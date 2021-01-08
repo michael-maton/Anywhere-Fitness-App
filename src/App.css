@@ -432,6 +432,9 @@ footer div ul a:hover {
   width: 500px;
 }
 
+
+/* -------------login page------------- */
+
 .login-register-container {
   margin-top: 5rem;
   display: flex;
@@ -489,6 +492,8 @@ input {
   font-size: 1rem;
 }
 
+/*-------------map css-------------*/
+
 .map-h2 {
   text-transform: uppercase;
   font-size: 1rem;
@@ -536,6 +541,7 @@ input {
   }
 }
 
+/*-------------registration css-------------*/
 .sign-in-container {
   display: flex;
   flex-direction: column;
@@ -602,6 +608,8 @@ input {
   margin: 0px;
 }
 
+
+/*-------------class display css-------------*/
 .card-container {
   overflow-y: overlay;
 }
