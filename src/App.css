@@ -142,7 +142,7 @@ nav a:hover:after {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  opacity: 90%;
+  opacity: 0.9;
 }
 
 .browser-container {
@@ -169,7 +169,7 @@ nav a:hover:after {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  opacity: 90%;
+  opacity: 0.9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -195,7 +195,7 @@ nav a:hover:after {
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
-  opacity: 100%;
+  opacity: 1;
   height: 110vh;
 }
 
@@ -542,7 +542,7 @@ input {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  opacity: 100%;
+  opacity: 1;
 }
 .register-container {
   margin-top: 5rem;
