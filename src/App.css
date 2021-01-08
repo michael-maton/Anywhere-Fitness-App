@@ -2,9 +2,7 @@
   text-align: center;
   background: linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
   min-height: 100vh;
-
 }
-
 
 /* ---------------------HEADER------------------------- */
 
@@ -26,13 +24,13 @@
   font-size: 2.5rem;
 }
 
-.word1{
-  color: #C4C4C4;
+.word1 {
+  color: #c4c4c4;
 }
-.word2{
-  color: #FF0000;
+.word2 {
+  color: #ff0000;
 }
-.word3{
+.word3 {
   color: #ffffff;
 }
 
@@ -42,13 +40,13 @@
 
 nav {
   display: flex;
-    align-items: center;
-    width: 100vw;
-    justify-content: flex-end;
-    padding-right: 10%;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  align-items: center;
+  width: 100vw;
+  justify-content: flex-end;
+  padding-right: 10%;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 nav a {
@@ -61,22 +59,21 @@ nav a {
 }
 
 nav a:after {
-  display:block;
-  content: '';
-  border-bottom: solid 2px orange;  
-  transform: scaleX(0);  
+  display: block;
+  content: "";
+  border-bottom: solid 2px orange;
+  transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
-nav a:hover:after { 
-  transform: scaleX(1); 
+nav a:hover:after {
+  transform: scaleX(1);
 }
 
 .orange-bar {
   background-color: orange;
   padding: 1px;
   color: #333333;
-  max-width: 100%;
-
+  width: 100%;
 }
 
 .orange-bar h4 {
@@ -89,9 +86,9 @@ nav a:hover:after {
 
 .static-footer {
   position: fixed;
-  bottom:0;
-  left:0;
-  width:100vw;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
   height: 90px;
   background: linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
   display: flex;
@@ -139,14 +136,13 @@ nav a:hover:after {
 
 /* -------------Sign-In Component----------------- */
 
-.sign-in-container{
+.sign-in-container {
   height: 100vh;
-  background-image: url('../src/images/fitnespic2.jpg');
+  background-image: url("../src/images/fitnespic2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   opacity: 90%;
-
 }
 
 .browser-container {
@@ -154,20 +150,19 @@ nav a:hover:after {
   background: white;
 }
 
-.filter-search-container{
+.filter-search-container {
   display: flex;
   justify-content: space-evenly;
   padding-top: 3%;
   padding-bottom: 2%;
 }
 
-.results-container{
+.results-container {
   display: flex;
   height: 100vh;
-
 }
 
-.results-card-container{
+.results-card-container {
   height: 100vh;
   width: 50vw;
   background: linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
@@ -180,31 +175,27 @@ nav a:hover:after {
   align-items: center;
 }
 
-.card-container{
+.card-container {
   background: white;
   width: 80%;
   height: 90%;
 }
 
-.maps-container{
+.maps-container {
   width: 50vw;
   height: 100%;
 }
 
-
-
-
-
 .home-page {
   background: rgb(255, 255, 255);
 }
-.fitness-img-container{
-  background-image: url('./images/fitnessfashion1.jpg');
+.fitness-img-container {
+  background-image: url("./images/fitnessfashion1.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
   background-attachment: fixed;
-  opacity: 90%;
+  opacity: 100%;
   height: 110vh;
 }
 
@@ -250,12 +241,11 @@ nav a:hover:after {
   color: #ffffff;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
-
 }
 
-#browse-btn:hover{
+#browse-btn:hover {
   transform: translate(0, -5px);
-  box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
   background: darkorange;
 }
 
@@ -264,7 +254,6 @@ nav a:hover:after {
 .about-section {
   background: white;
   margin: 100px;
-
 }
 
 .about-section-title {
@@ -274,7 +263,7 @@ nav a:hover:after {
   letter-spacing: 2px;
   word-spacing: 2px;
   padding-top: 1%;
-  opacity: .9;
+  opacity: 0.9;
   line-height: 1.6;
   margin-left: 10%;
   margin-right: 10%;
@@ -287,7 +276,7 @@ nav a:hover:after {
   justify-content: center;
 }
 
-.about{
+.about {
   align-self: center;
   text-align: left;
   letter-spacing: 2px;
@@ -299,16 +288,15 @@ nav a:hover:after {
 .about h2 {
   color: #9b9b9b;
   font-size: 12px;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .about h1 {
   font-size: 24px;
 }
 
-.about ul{
+.about ul {
   padding-inline-start: 0px;
-  
 }
 
 .about ul li h3 {
@@ -323,7 +311,6 @@ nav a:hover:after {
   list-style-type: none;
 }
 
-
 .img-container1 {
   text-align: right;
   align-self: center;
@@ -334,7 +321,7 @@ nav a:hover:after {
 }
 /* ------------- Footer ------------- */
 
-footer{
+footer {
   margin-bottom: 90px;
   background: #0d0d0d;
   color: white;
@@ -366,7 +353,7 @@ footer div ul {
 
 footer div ul a {
   text-decoration: none;
-  color: hsla(0,0%,100%,.56);
+  color: hsla(0, 0%, 100%, 0.56);
   transition: 0.2s all ease-in-out;
 }
 
@@ -392,7 +379,6 @@ footer div ul a:hover {
 }
 /* -------------Why Section ------------- */
 
-
 .find-why-af {
   display: flex;
   flex-wrap: wrap;
@@ -401,7 +387,7 @@ footer div ul a:hover {
   justify-content: center;
 }
 
-.why{
+.why {
   align-self: center;
   text-align: left;
   margin-left: 12%;
@@ -410,17 +396,14 @@ footer div ul a:hover {
   max-width: 20vw;
 }
 
-
-.why ul{
+.why ul {
   padding-inline-start: 0px;
   margin-right: 10%;
 }
 
-
-
 .img-container2 {
   align-self: center;
-  text-align: left;   
+  text-align: left;
 }
 
 .img-container2 img {
@@ -430,7 +413,7 @@ footer div ul a:hover {
 .why h2 {
   color: #9b9b9b;
   font-size: 12px;
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .why h1 {
@@ -450,7 +433,7 @@ footer div ul a:hover {
 }
 
 .login-register-container {
-  margin-top: 5rem;;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -469,15 +452,14 @@ button {
   border-radius: 20px;
   border: solid #000000 5px;
   background-color: rgba(255, 251, 0, 0.109);
-
 }
 button:hover {
-  box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
   background-color: rgba(255, 166, 0, 0.109);
   cursor: pointer;
 }
 .submit-button {
-  margin: 20px;;
+  margin: 20px;
 }
 .back-button {
   width: 5rem;
@@ -560,10 +542,10 @@ input {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-
+  opacity: 100%;
 }
 .register-container {
-  margin-top: 5rem;;
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -582,15 +564,14 @@ button {
   border-radius: 20px;
   border: solid #000000 5px;
   background-color: rgba(255, 251, 0, 0.109);
-
 }
 button:hover {
-  box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
   background-color: rgba(255, 166, 0, 0.109);
   cursor: pointer;
 }
 .submit-button {
-  margin: 20px;;
+  margin: 20px;
 }
 .back-button {
   width: 5rem;
@@ -626,16 +607,16 @@ input {
 }
 
 .class-container {
- border: solid #ce9ffc 2px;
- margin: 2%;
- padding: 2%;
- margin-right: 20px;
- transition: all 0.2s ease-in-out;
- cursor: pointer;
+  border: solid #ce9ffc 2px;
+  margin: 2%;
+  padding: 2%;
+  margin-right: 20px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 .class-container:hover {
-  box-shadow: 0px 12px 5px -8px rgba(0,0,0,0.2);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
   background-color: rgba(255, 166, 0, 0.109);
 }
 
@@ -643,7 +624,7 @@ input {
   display: flex;
 }
 .card-title {
-width: 10vw;
+  width: 10vw;
 }
 .class-description {
   width: 20vw;

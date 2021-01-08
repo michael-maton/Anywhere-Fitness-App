@@ -31,8 +31,6 @@ function App({ user }) {
     setIsLoggedIn(false);
   };
 
-  console.log(user);
-
   return (
     <Router>
       <div className="App">
