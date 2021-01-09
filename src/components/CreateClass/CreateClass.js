@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Classform from "./Classform";
-import { axiosWithAuth } from "../../utils/axiosWithAuth";
-
+import { addClass } from "../../actions/index";
+import { connect } from "react-redux";
+import { useHistory } from "react-router-dom";
 
 const initialFormValues = {
   name: "",
@@ -13,9 +14,9 @@ const initialFormValues = {
   max_class_size: "",
 };
 
-export default function CreateClass() {
-  const [classes, setClasses] = useState([]);
+function CreateClass(props) {
   const [formValues, setFormValues] = useState(initialFormValues);
+  const history = useHistory();
 
   const updateForm = (inputName, inputValue) => {
     setFormValues({
@@ -34,34 +35,15 @@ export default function CreateClass() {
       location: formValues.location,
       max_class_size: formValues.max_class_size,
     };
-    console.log(newClass);
-    axiosWithAuth()
-      .post("/api/classes", newClass)
-      .then((res) => {
-        console.log(res);
-        setClasses([newClass, ...classes]);
-        setFormValues(initialFormValues);
-      })
-      .catch((err) => {
-        console.log(err.message);
-      });
+    props.addClass(newClass);
+    history.push('/browse');
   };
-
-  useEffect(() => {
-    axiosWithAuth().get("/api/classes ")
-    .then((res) => setClasses(res.data));
-  }, []);
-
 
   return (
     <div>
       <Classform values={formValues} update={updateForm} submit={submitForm} />
-    {/* <div>
-      <h2>My Classes</h2>
-      {classes.map((c) => {
-        return <Class key={c.id} details={c} />;
-      })}
-    </div> */}
     </div>
   );
 }
+
+export default connect(null, { addClass })(CreateClass)
