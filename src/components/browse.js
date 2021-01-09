@@ -7,6 +7,7 @@ import { connect } from "react-redux";
 function Browse({ fetchClasses, classes, error, isLoading }) {
   useEffect(() => {
     fetchClasses();
+    // eslint-disable-next-line
   }, []);
 
   return (
