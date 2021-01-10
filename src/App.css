@@ -456,11 +456,24 @@ footer div ul a:hover {
   border: none;
   border-radius: 7px;;
   background-color: white;
-  font-size: 1rem;;
+  font-size: 1rem;
 }
-button:hover {
+.sign-in-button:hover {
   box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
   background-color: rgba(255, 166, 0);
+  cursor: pointer;
+}
+.sign-in-button-disabled {
+  height: 3rem;
+  width: 10rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 7px;;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.sign-in-button-disabled:hover {
   cursor: pointer;
 }
 .submit-button {
