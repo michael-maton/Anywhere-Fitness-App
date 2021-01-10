@@ -113,8 +113,8 @@ function SignIn(props) {
           </label>
         </div>
         <br />
-        <button disabled={disabled}>Sign In</button>
-        <button className="register-button" onClick={handleRegister}>Create Account</button>
+        <p className="register-button" onClick={handleRegister}>Create Account</p>
+        <button className="sign-in-button" disabled={disabled}>Sign In</button>
       </form>
     </div>
   );
