@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: calc(100vw - (100vw - 100%));
+}
+
 .App {
   text-align: center;
   background: linear-gradient(135deg, #ce9ffc 0%, #7367f0 100%);
@@ -186,9 +193,6 @@ nav a:hover:after {
   height: 100%;
 }
 
-.home-page {
-  background: rgb(255, 255, 255);
-}
 .fitness-img-container {
   background-image: url("./images/fitnessfashion1.jpg");
   background-repeat: no-repeat;
@@ -197,6 +201,7 @@ nav a:hover:after {
   background-attachment: fixed;
   opacity: 1;
   height: 110vh;
+  max-width: 100%;
 }
 
 .fitness-img-container h4 {
