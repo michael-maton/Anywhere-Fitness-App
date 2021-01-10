@@ -84,6 +84,11 @@ function SignIn(props) {
     updateForm(type, value);
   };
 
+  let signInDisabled = "sign-in-button-disabled";
+  if (!disabled) {
+    signInDisabled = "sign-in-button";
+  }
+
   return (
     <div className="sign-in-container" onSubmit={onSubmit}>
       <div className="orange-bar">
@@ -113,8 +118,8 @@ function SignIn(props) {
           </label>
         </div>
         <br />
-        <button disabled={disabled}>Sign In</button>
-        <button className="register-button" onClick={handleRegister}>Create Account</button>
+        <p className="register-button" onClick={handleRegister}>Create Account</p>
+        <button className={signInDisabled} disabled={disabled}>Sign In</button>
       </form>
     </div>
   );

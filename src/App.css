@@ -441,37 +441,45 @@ footer div ul a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgb(185, 185, 185);
-  width: 700px;
-  height: 600px;
+  background: white;
+  width: 50rem;
+  height: 30rem;
   display: flex;
   border-radius: 10px;
+  background: rgba(255, 255, 255, 0.45);
   /* background: linear-gradient(135deg, #b0a4bb 0%, #7367f0 100%); */
 }
-button {
-  height: 5rem;
-  width: 20rem;
-  margin: 4rem;
-  border-radius: 20px;
-  border: solid #000000 5px;
-  background-color: rgba(255, 251, 0, 0.109);
+.sign-in-button {
+  height: 3rem;
+  width: 10rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 7px;;
+  background-color: white;
+  font-size: 1rem;
 }
-button:hover {
+.sign-in-button:hover {
   box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
-  background-color: rgba(255, 166, 0, 0.109);
+  background-color: rgba(255, 166, 0);
+  cursor: pointer;
+}
+.sign-in-button-disabled {
+  height: 3rem;
+  width: 10rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 7px;;
+  background-color: white;
+  font-size: 1rem;
+}
+
+.sign-in-button-disabled:hover {
   cursor: pointer;
 }
 .submit-button {
   margin: 20px;
 }
 .back-button {
-  width: 5rem;
-  height: 2rem;
-  border-radius: 4px;
-  border: 2px solid black;
-  margin: 0px;
-}
-.sign-in-button {
   width: 5rem;
   height: 2rem;
   border-radius: 4px;
@@ -491,6 +499,14 @@ input {
   border-radius: 7px;
   font-size: 1rem;
 }
+.register-button {
+  text-decoration: underline;
+  margin-top: 0;
+}
+.register-button:hover {
+  cursor: pointer;
+}
+
 
 /*-------------map css-------------*/
 
@@ -563,21 +579,13 @@ input {
   border-radius: 10px;
   /* background: linear-gradient(135deg, #b0a4bb 0%, #7367f0 100%); */
 }
-button {
+.user-options {
   height: 5rem;
   width: 20rem;
   margin: 4rem;
   border-radius: 20px;
   border: solid #000000 5px;
   background-color: rgba(255, 251, 0, 0.109);
-}
-button:hover {
-  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
-  background-color: rgba(255, 166, 0, 0.109);
-  cursor: pointer;
-}
-.submit-button {
-  margin: 20px;
 }
 .back-button {
   width: 5rem;
@@ -599,15 +607,6 @@ input {
   border-radius: 7px;
   font-size: 1rem;
 }
-
-.register-button {
-  width: 8rem;
-  height: 2rem;
-  border-radius: 4px;
-  border: 2px solid black;
-  margin: 0px;
-}
-
 
 /*-------------class display css-------------*/
 .card-container {

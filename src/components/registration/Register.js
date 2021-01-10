@@ -101,11 +101,11 @@ export default function SignUp(props) {
       <div className="login-register-container">
         {!formValues.role && (
           <div>
-            <button value={2} onClick={handleRolePick}>
+            <button className="user-options" value={2} onClick={handleRolePick}>
               Client
             </button>
 
-            <button value={1} onClick={handleRolePick}>
+            <button className="user-options" value={1} onClick={handleRolePick}>
               Instructor
             </button>
             <br/>
