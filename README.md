@@ -4,6 +4,8 @@
 
 #### Project Brief: https://www.notion.so/Anywhere-Fitness-fc0ac268df284aaf8db3ae1913fa3134
 
+#### Back-end repo: https://github.com/AnywhereFitness-App/backend
+
 Created by Lambda Schools WEB_FT_26 Track Team:
 
 Daniel Vargas
